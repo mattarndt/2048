@@ -42,6 +42,7 @@ namespace TwentyFortyEight
 
         private void frmTwentyFortyEight_KeyDown(object sender, KeyEventArgs e)
         {
+            
             if (e.Control == true && e.KeyCode == Keys.Left)
             {
                 btnLeft.PerformClick();
@@ -61,6 +62,15 @@ namespace TwentyFortyEight
 
         }
 
-        
+        private void btnName_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("really quick!");
+            txtName.Enabled = false;
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

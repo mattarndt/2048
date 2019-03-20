@@ -38,6 +38,8 @@
             this.btnUp = new System.Windows.Forms.Button();
             this.btnDown = new System.Windows.Forms.Button();
             this.btnRight = new System.Windows.Forms.Button();
+            this.btnName = new System.Windows.Forms.Button();
+            this.btnClose = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblTwentyFortyEight
@@ -59,24 +61,25 @@
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(50, 150);
+            this.txtName.Location = new System.Drawing.Point(23, 150);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(147, 31);
+            this.txtName.Size = new System.Drawing.Size(128, 31);
             this.txtName.TabIndex = 2;
             this.txtName.Text = "Name";
             // 
             // btnRules
             // 
-            this.btnRules.Location = new System.Drawing.Point(250, 144);
+            this.btnRules.Location = new System.Drawing.Point(468, 145);
             this.btnRules.Name = "btnRules";
-            this.btnRules.Size = new System.Drawing.Size(124, 43);
+            this.btnRules.Size = new System.Drawing.Size(90, 43);
             this.btnRules.TabIndex = 3;
             this.btnRules.Text = "Rules";
             this.btnRules.UseVisualStyleBackColor = true;
             // 
             // txtScore
             // 
-            this.txtScore.Location = new System.Drawing.Point(458, 150);
+            this.txtScore.Enabled = false;
+            this.txtScore.Location = new System.Drawing.Point(271, 150);
             this.txtScore.Name = "txtScore";
             this.txtScore.Size = new System.Drawing.Size(138, 31);
             this.txtScore.TabIndex = 4;
@@ -84,9 +87,9 @@
             // 
             // btnNew
             // 
-            this.btnNew.Location = new System.Drawing.Point(665, 144);
+            this.btnNew.Location = new System.Drawing.Point(607, 145);
             this.btnNew.Name = "btnNew";
-            this.btnNew.Size = new System.Drawing.Size(129, 43);
+            this.btnNew.Size = new System.Drawing.Size(94, 43);
             this.btnNew.TabIndex = 5;
             this.btnNew.Text = "New";
             this.btnNew.UseVisualStyleBackColor = true;
@@ -131,11 +134,36 @@
             this.btnRight.UseVisualStyleBackColor = true;
             this.btnRight.Click += new System.EventHandler(this.btnRight_Click);
             // 
+            // btnName
+            // 
+            this.btnName.Location = new System.Drawing.Point(157, 145);
+            this.btnName.Name = "btnName";
+            this.btnName.Size = new System.Drawing.Size(66, 40);
+            this.btnName.TabIndex = 9;
+            this.btnName.Text = "ok";
+            this.btnName.UseVisualStyleBackColor = true;
+            this.btnName.Click += new System.EventHandler(this.btnName_Click);
+            // 
+            // btnClose
+            // 
+            this.btnClose.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.btnClose.Location = new System.Drawing.Point(743, 144);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(89, 43);
+            this.btnClose.TabIndex = 10;
+            this.btnClose.Text = "Close";
+            this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            // 
             // frmTwentyFortyEight
             // 
+            this.AcceptButton = this.btnName;
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(900, 1080);
+            this.CancelButton = this.btnClose;
+            this.ClientSize = new System.Drawing.Size(889, 1016);
+            this.Controls.Add(this.btnClose);
+            this.Controls.Add(this.btnName);
             this.Controls.Add(this.btnRight);
             this.Controls.Add(this.btnDown);
             this.Controls.Add(this.btnUp);
@@ -167,6 +195,8 @@
         private System.Windows.Forms.Button btnUp;
         private System.Windows.Forms.Button btnDown;
         private System.Windows.Forms.Button btnRight;
+        private System.Windows.Forms.Button btnName;
+        private System.Windows.Forms.Button btnClose;
     }
 }
 
