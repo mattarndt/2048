@@ -1,0 +1,9 @@
+c:\users\mike\documents\visual studio 2017\Projects\TwentyFortyEight\TwentyFortyEight\bin\Debug\TwentyFortyEight.exe.config
+c:\users\mike\documents\visual studio 2017\Projects\TwentyFortyEight\TwentyFortyEight\bin\Debug\TwentyFortyEight.exe
+c:\users\mike\documents\visual studio 2017\Projects\TwentyFortyEight\TwentyFortyEight\bin\Debug\TwentyFortyEight.pdb
+c:\users\mike\documents\visual studio 2017\Projects\TwentyFortyEight\TwentyFortyEight\obj\Debug\TwentyFortyEight.csprojResolveAssemblyReference.cache
+c:\users\mike\documents\visual studio 2017\Projects\TwentyFortyEight\TwentyFortyEight\obj\Debug\TwentyFortyEight.frmTwentyFortyEight.resources
+c:\users\mike\documents\visual studio 2017\Projects\TwentyFortyEight\TwentyFortyEight\obj\Debug\TwentyFortyEight.Properties.Resources.resources
+c:\users\mike\documents\visual studio 2017\Projects\TwentyFortyEight\TwentyFortyEight\obj\Debug\TwentyFortyEight.csproj.GenerateResource.Cache
+c:\users\mike\documents\visual studio 2017\Projects\TwentyFortyEight\TwentyFortyEight\obj\Debug\TwentyFortyEight.exe
+c:\users\mike\documents\visual studio 2017\Projects\TwentyFortyEight\TwentyFortyEight\obj\Debug\TwentyFortyEight.pdb
